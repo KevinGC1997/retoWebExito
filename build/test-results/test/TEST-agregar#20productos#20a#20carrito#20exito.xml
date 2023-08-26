@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="agregar productos a carrito exito" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-08-26T18:39:56" hostname="SQABOG-TGP4980" time="105.291">
+  <properties/>
+  <testcase name="agregar y validar productos agregados a carrito" classname="agregar productos a carrito exito" time="105.291"/>
+  <system-out><![CDATA[arreglo inicial: [7, 9, 10, 3, 4]
+arreglo sumario: [7, 9, 10, 3, 4]
+cantidad: 7
+234900
+valor formateado 1.644.300
+arreglo en carrito: [7, 9, 10, 3, 4]
+arreglo sumario: [7, 9, 10, 3, 4]
+cantidad: 9
+319900
+valor formateado 2.879.100
+arreglo en carrito: [7, 9, 10, 3, 4]
+arreglo sumario: [7, 9, 10, 3, 4]
+cantidad: 10
+349900
+valor formateado 3.499.000
+arreglo en carrito: [7, 9, 10, 3, 4]
+arreglo sumario: [7, 9, 10, 3, 4]
+cantidad: 3
+239000
+valor formateado 717.000
+arreglo en carrito: [7, 9, 10, 3, 4]
+arreglo sumario: [7, 9, 10, 3, 4]
+cantidad: 4
+204900
+valor formateado 819.600
+arreglo en carrito: [7, 9, 10, 3, 4]
+producto excel Cabecero Para Cama Queen Dublin Negro
+cantidad producto excel 7
+valor total excel $ 1.644.300
+producto web Cabecero Para Cama Queen Dublin Negro
+cantidad producto web 7
+total producto web $ 1.644.300
+producto excel Cabecero Flotante Bogle Cama Queen 160 X 60 Negro
+cantidad producto excel 9
+valor total excel $ 2.879.100
+producto web Cabecero Flotante Bogle Cama Queen 160 X 60 Negro
+cantidad producto web 9
+total producto web $ 2.879.100
+producto excel Cabecero Entero Bogle Cama Doble 140 X 120 Negro
+cantidad producto excel 10
+valor total excel $ 3.499.000
+producto web Cabecero Entero Bogle Cama Doble 140 X 120 Negro
+cantidad producto web 10
+total producto web $ 3.499.000
+producto excel Cabecero Doble Linea Vertical Dormipuff
+cantidad producto excel 3
+valor total excel $ 717.000
+producto web Cabecero Doble Linea Vertical Dormipuff
+cantidad producto web 3
+total producto web $ 717.000
+producto excel Cabecero Para Cama Doble Dublin Café
+cantidad producto excel 4
+valor total excel $ 819.600
+producto web Cabecero Para Cama Doble Dublin Café
+cantidad producto web 4
+total producto web $ 819.600
+]]></system-out>
+  <system-err><![CDATA[[Test worker] ERROR io.github.bonigarcia.wdm.online.HttpClient - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[Test worker] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Kevin\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 1628
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1693075199.460][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1693075199.460][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1693075200.566][WARNING]: This version of ChromeDriver has not been tested with Chrome version 115.
+ago. 26, 2023 1:40:00 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: agregar y validar productos agregados a carrito
+----------------------------------------------------------------------------
+]]></system-err>
+</testsuite>
